@@ -104,3 +104,22 @@ p {
 text-center {
   text-align: center;
 }
+.pannel {
+  text-decoration: underline;
+  margin-top: 100px;
+  display: block;
+  padding: 20px 15px;
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+  font-size: larger;
+  opacity: 0.8;
+}
+.adorn {
+  color: #f5f2fe;
+}
+.pannel:hover {
+  text-decoration: wavy;
+  color: #b81515;
+  background: #6c63ff;
+}
