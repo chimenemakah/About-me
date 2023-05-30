@@ -15,10 +15,11 @@ h3 {
   text-align: center;
   margin: 0;
 }
-
-h1 {
-  font-size: 90px;
-  display: flex;
+@media (max-width: 576px) {
+  h1 {
+    font-size: 90px;
+    display: flex;
+  }
 }
 
 h2 {
